@@ -1553,13 +1553,13 @@ header .header-logo a {
 #home {
 	width: 100%;
 	height: 100%;
-	background-color: #151515;
+	background-color: black;
 	background-image: url(../images/main.jpg);
 	background-repeat: no-repeat;
 	background-position: center 30%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background-size: contain;
 	background-attachment: fixed;
 	min-height: 804px;
 	position: relative;
@@ -1831,7 +1831,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 #about {
 	position: relative;
 	padding: 4.2rem 0 12rem;
-	background-color: #ffffff;
+	background-color:white;
 	min-height: 696px;
 	text-align: center;
 }
