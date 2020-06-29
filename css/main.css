@@ -1554,7 +1554,7 @@ header .header-logo a {
 	width: 100%;
 	height: 100%;
 	background-color: #151515;
-	background-image: url(../images/hero-bg.jpg);
+	background-image: url(../images/main.jpg);
 	background-repeat: no-repeat;
 	background-position: center 30%;
 	-webkit-background-size: cover;
@@ -2574,9 +2574,66 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 
 /* ===================================================================
+ *  competitions - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+ #competitions {
+	background-color: #111111;
+	background-image: url(../images/competitions.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding: 12rem 0 12rem;
+	position: relative;
+}
+#competitions .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.75;
+	background-color: #000000;
+}
+#competitions .section-intro h1 {
+	color: #73dfdf;
+	font-weight: 3.5rem;
+}
+#competitions .section-intro h3 {
+	color: rgba(242, 242, 242, 0.5);
+}
+#competitions .section-intro h4 {
+	color: rgba(242, 242, 242, 0.5);
+}
+#competitions .section-intro p.lead {
+	color: rgba(242, 242, 242, 0.4);
+}
+
+.competitions-content {
+	max-width: 1024px;
+	margin-top: 3rem;
+	color:rgba(203, 214, 223, 0.952);
+	z-index: 600;
+	position: relative;
+	text-align: center;
+}
+
+.competitions-content p {
+	color: rgba(203, 214, 223, 0.952);
+	margin-bottom: 5.4rem;
+}
+.competitions-content h6 {
+	color: #6b94bb;
+	font-size: 1.9rem;
+}
+/* ===================================================================
  *  16. contact - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+
+
 #contact {
 	background-color: #111111;
 	background-image: url(../images/contact-bg.jpg);
@@ -2598,7 +2655,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	background-color: #000000;
 }
 #contact .section-intro h1 {
-	color: rgb(8, 105, 105);
+	color: #73dfdf;
 	font-weight: 3.5rem;
 }
 #contact .section-intro h3 {
@@ -2621,12 +2678,12 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 
 .contact-content p {
-	color: white;
+	color: rgba(203, 214, 223, 0.952);
 	margin-bottom: 5.4rem;
 }
 .contact-content h6 {
-	color: #555555;
-	font-size: 2.6rem;
+	color: #6b94bb;
+	font-size: 1.9rem;
 }
 
 /* contact info */
