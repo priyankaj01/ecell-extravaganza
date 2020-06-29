@@ -1937,7 +1937,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
 	background-color: #19191b;
-	background-image: url(../images/services-bg.jpg);
+	background-image: url(../images/services.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -1945,7 +1945,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	background-size: cover;
 	min-height: 800px;
 	position: relative;
-	padding: 15rem 0 15rem;
+	padding: 15rem 0 15rem; 
 	color: rgba(255, 255, 255, 0.3);
 }
 #services .overlay {
@@ -1984,7 +1984,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	color: rgba(242, 242, 242, 0.5);
 }
 #services .section-intro h1 {
-	color: #ffffff;
+	color: #73dfdf;
 }
 #services .section-intro .lead {
 	text-align: justify;
@@ -2003,7 +2003,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	padding: 0 50px;
 }
 #services .services-list .service-item p {
-	color: rgba(242, 242, 242, 0.5);
+	color: rgba(203, 214, 223, 0.952);
 }
 #services .services-list .icon {
 	display: inline-block;
@@ -2014,9 +2014,9 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	color: #f9a828;
 }
 #services .services-list .h05 {
-	font-size: 1.7rem;
+	font-size: 1.9rem;
 	line-height: 1.765;
-	color: #ffffff;
+	color: #6b94bb;
 	margin-bottom: 3rem;
 }
 
