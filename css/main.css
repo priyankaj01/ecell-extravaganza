@@ -1841,7 +1841,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 #about h3 {
 	font-family: "montserrat-bold", sans-serif;
-	font-size: 3rem;
+	font-size: 3.4rem;
 	line-height: 1.667;
 	color: #07617d;
 	text-transform: uppercase;
@@ -1863,6 +1863,14 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	line-height: 1.8;
 	color: #2e383f;
 	margin-top: 6rem;
+}
+#about .button9 {
+	background-color:rgb(61, 42, 105);
+	color: white;
+	font-size: 18px;
+	border-radius: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	height: 70px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2653,6 +2661,16 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	height: 100%;
 	opacity: 0.75;
 	background-color: #000000;
+}
+#contact .button9 {
+	/* background-color:rgb(39, 61, 184); */
+	/* background-color:rgb(168, 17, 62); */
+	background-color:rgb(61, 42, 105);
+	color: white;
+	font-size: 18px;
+	border-radius: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	height: 70px;
 }
 #contact .section-intro h1 {
 	color: #73dfdf;
